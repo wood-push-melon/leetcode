@@ -1,9 +1,11 @@
+/*
+ * Combination Sum III
+ * @tags: array, backtracking(DFS)
+ */
+
 import java.util.List;
 import java.util.ArrayList;
 
-/*
- * @tags: array, backtracking(DFS)
- */
 public class Solution216 {
     private List<List<Integer>> result = new ArrayList<List<Integer>>();
     private List<Integer> path = new ArrayList<Integer>();

@@ -1,8 +1,10 @@
-import java.util.HashMap;
-
 /*
+ * Two Sum
  * @tags: array, hashtable
  */
+
+import java.util.HashMap;
+
 public class Solution001 {
     private HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
