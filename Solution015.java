@@ -24,8 +24,8 @@ public class Solution015 {
 
             int j = i + 1;
             int k = nums.length - 1;
-            int sum = nums[i] + nums[j] + nums[k];
             while (j < k) {
+                int sum = nums[i] + nums[j] + nums[k];
                 if (sum == 0) {
                     List<Integer> tmp = Arrays.asList(nums[i], nums[j], nums[k]);
                     rst.add(tmp);
